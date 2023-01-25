@@ -6,7 +6,23 @@
     position: fixed;
     top:0;
     left: 0;
-    background-color: blue;
-    width: 30%;
+    background-color: rgb(195, 195, 230);
+    width: 20%;
     height: 100%;
+    text-align: center;
+    line-height: 400%;
+
+}
+
+.ListWrap{
+    margin-top: 10%;
+}
+
+.List{
+    cursor: pointer;
+    font-size: 2em;
+}
+
+.Container{
+    margin-left: 20%;
 }
