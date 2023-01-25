@@ -1,3 +1,4 @@
+
 .SideList{
     cursor: pointer !important;
 }
@@ -15,7 +16,7 @@
 }
 
 .ListWrap{
-    margin-top: 20%;
+    margin-top: 15%;
 }
 
 .List{
@@ -30,13 +31,15 @@
 
 .Container{
     margin-left: 20%;
+    margin-top: 4%;
 }
 
 .Logo{
-    margin-top: 20%;
+    margin-top: 15%;
+    margin-bottom: 2%;
 }
 
 .Name{
     font-weight: bold;
-    font-size: 1.2em;
+    font-size: 1.6em;
 }
