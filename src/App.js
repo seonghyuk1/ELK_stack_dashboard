@@ -22,10 +22,7 @@ function App() {
             setCount(1);
           }}
         >
-          <span
-            className={styles.List}
-            style={{ opacity: count == 1 && "0.2" }}
-          >
+          <span className={styles.List} style={{ opacity: count == 1 && "1" }}>
             성과요약1
           </span>
         </div>
@@ -34,10 +31,7 @@ function App() {
             setCount(2);
           }}
         >
-          <span
-            className={styles.List}
-            style={{ opacity: count == 2 && "0.2" }}
-          >
+          <span className={styles.List} style={{ opacity: count == 2 && "1" }}>
             성과요약2
           </span>
         </div>
@@ -46,10 +40,7 @@ function App() {
             setCount(3);
           }}
         >
-          <span
-            className={styles.List}
-            style={{ opacity: count == 3 && "0.2" }}
-          >
+          <span className={styles.List} style={{ opacity: count == 3 && "1" }}>
             상품상세트렌드
           </span>
         </div>
@@ -58,10 +49,7 @@ function App() {
             setCount(4);
           }}
         >
-          <span
-            className={styles.List}
-            style={{ opacity: count == 4 && "0.2" }}
-          >
+          <span className={styles.List} style={{ opacity: count == 4 && "1" }}>
             카테고리트렌드
           </span>
         </div>
@@ -70,10 +58,7 @@ function App() {
             setCount(5);
           }}
         >
-          <span
-            className={styles.List}
-            style={{ opacity: count == 5 && "0.2" }}
-          >
+          <span className={styles.List} style={{ opacity: count == 5 && "1" }}>
             취소/교환/반품
           </span>
         </div>
@@ -82,10 +67,7 @@ function App() {
             setCount(6);
           }}
         >
-          <span
-            className={styles.List}
-            style={{ opacity: count == 6 && "0.2" }}
-          >
+          <span className={styles.List} style={{ opacity: count == 6 && "1" }}>
             구매고객구성1
           </span>
         </div>
@@ -94,10 +76,7 @@ function App() {
             setCount(7);
           }}
         >
-          <span
-            className={styles.List}
-            style={{ opacity: count == 7 && "0.2" }}
-          >
+          <span className={styles.List} style={{ opacity: count == 7 && "1" }}>
             구매고객구성2
           </span>
         </div>
@@ -106,10 +85,7 @@ function App() {
             setCount(8);
           }}
         >
-          <span
-            className={styles.List}
-            style={{ opacity: count == 8 && "0.2" }}
-          >
+          <span className={styles.List} style={{ opacity: count == 8 && "1" }}>
             고객당주문
           </span>
         </div>
@@ -118,10 +94,7 @@ function App() {
             setCount(9);
           }}
         >
-          <span
-            className={styles.List}
-            style={{ opacity: count == 9 && "0.2" }}
-          >
+          <span className={styles.List} style={{ opacity: count == 9 && "1" }}>
             vip고객분석
           </span>
         </div>
