@@ -1,6 +1,5 @@
-import React, { useState, useEffect } from "react";
-import Nav from "react-bootstrap/Nav";
-import Navbar from "react-bootstrap/Navbar";
+/* eslint-disable */
+import React, { useState } from "react";
 import styles from "./App.module.css";
 
 function App() {
@@ -112,7 +111,7 @@ function App() {
       {count == 2 && (
         <div className={styles.Container}>
           <iframe
-            src="https://kwhcclab.com:20454/app/dashboards#/view/af7dd580-970a-11ed-a59b-6d42b3274f2d?embed=true&_g=(filters%3A!()%2CrefreshInterval%3A(pause%3A!t%2Cvalue%3A0)%2Ctime%3A(from%3Anow-30d%2Fd%2Cto%3Anow))&show-time-filter=true&hide-filter-bar=true"
+            src="https://kwhcclab.com:20454/app/dashboards#/view/af7dd580-970a-11ed-a59b-6d42b3274f2d?embed=true&_g=(filters%3A!()%2CrefreshInterval%3A(pause%3A!t%2Cvalue%3A0)%2Ctime%3A(from%3Anow-10y%2Cto%3Anow))&show-time-filter=true"
             height="700"
             width="100%"
           ></iframe>
@@ -122,7 +121,7 @@ function App() {
       {count == 3 && (
         <div className={styles.Container}>
           <iframe
-            src="https://kwhcclab.com:20454/app/dashboards#/view/1ad3c1f0-9c9c-11ed-a59b-6d42b3274f2d?embed=true&_g=(filters%3A!()%2CrefreshInterval%3A(pause%3A!t%2Cvalue%3A0)%2Ctime%3A(from%3Anow-30d%2Fd%2Cto%3Anow))&show-time-filter=true&hide-filter-bar=true"
+            src="https://kwhcclab.com:20454/app/dashboards#/view/1ad3c1f0-9c9c-11ed-a59b-6d42b3274f2d?embed=true&_g=(filters%3A!()%2CrefreshInterval%3A(pause%3A!t%2Cvalue%3A0)%2Ctime%3A(from%3Anow-30d%2Fd%2Cto%3Anow))&show-time-filter=true"
             height="700"
             width="100%"
           ></iframe>
@@ -132,7 +131,7 @@ function App() {
       {count == 4 && (
         <div className={styles.Container}>
           <iframe
-            src="https://kwhcclab.com:20454/app/dashboards#/view/79c15390-970f-11ed-a59b-6d42b3274f2d?embed=true&_g=(filters%3A!()%2CrefreshInterval%3A(pause%3A!t%2Cvalue%3A0)%2Ctime%3A(from%3Anow-30d%2Fd%2Cto%3Anow))&show-time-filter=true&hide-filter-bar=true"
+            src="https://kwhcclab.com:20454/app/dashboards#/view/79c15390-970f-11ed-a59b-6d42b3274f2d?embed=true&_g=(filters%3A!()%2CrefreshInterval%3A(pause%3A!t%2Cvalue%3A0)%2Ctime%3A(from%3Anow-5M%2Cto%3Anow))&show-time-filter=true"
             height="700"
             width="100%"
           ></iframe>
@@ -141,7 +140,7 @@ function App() {
       {count == 5 && (
         <div className={styles.Container}>
           <iframe
-            src="https://kwhcclab.com:20454/app/dashboards#/view/e4448de0-9796-11ed-a59b-6d42b3274f2d?embed=true&_g=(filters%3A!()%2CrefreshInterval%3A(pause%3A!t%2Cvalue%3A0)%2Ctime%3A(from%3Anow-30d%2Fd%2Cto%3Anow))&show-time-filter=true&hide-filter-bar=true"
+            src="https://kwhcclab.com:20454/app/dashboards#/view/e4448de0-9796-11ed-a59b-6d42b3274f2d?embed=true&_g=(filters%3A!()%2CrefreshInterval%3A(pause%3A!t%2Cvalue%3A0)%2Ctime%3A(from%3Anow-30d%2Fd%2Cto%3Anow))&show-time-filter=true"
             height="700"
             width="100%"
           ></iframe>
@@ -150,7 +149,7 @@ function App() {
       {count == 6 && (
         <div className={styles.Container}>
           <iframe
-            src="https://kwhcclab.com:20454/app/dashboards#/view/90620400-9c9b-11ed-a59b-6d42b3274f2d?embed=true&_g=(filters%3A!()%2CrefreshInterval%3A(pause%3A!t%2Cvalue%3A0)%2Ctime%3A(from%3Anow-30d%2Fd%2Cto%3Anow))&show-time-filter=true&hide-filter-bar=true"
+            src="https://kwhcclab.com:20454/app/dashboards#/view/90620400-9c9b-11ed-a59b-6d42b3274f2d?embed=true&_g=(filters%3A!()%2CrefreshInterval%3A(pause%3A!t%2Cvalue%3A0)%2Ctime%3A(from%3Anow-10y%2Cto%3Anow))&show-time-filter=true"
             height="700"
             width="100%"
           ></iframe>
@@ -159,7 +158,7 @@ function App() {
       {count == 7 && (
         <div className={styles.Container}>
           <iframe
-            src="https://kwhcclab.com:20454/app/dashboards#/view/bcdc1730-9c84-11ed-a59b-6d42b3274f2d?embed=true&_g=(filters%3A!()%2CrefreshInterval%3A(pause%3A!t%2Cvalue%3A0)%2Ctime%3A(from%3Anow-30d%2Fd%2Cto%3Anow))&show-time-filter=true&hide-filter-bar=true"
+            src="https://kwhcclab.com:20454/app/dashboards#/view/bcdc1730-9c84-11ed-a59b-6d42b3274f2d?embed=true&_g=(filters%3A!()%2CrefreshInterval%3A(pause%3A!t%2Cvalue%3A0)%2Ctime%3A(from%3Anow-10y%2Cto%3Anow))&show-time-filter=true"
             height="700"
             width="100%"
           ></iframe>
@@ -179,7 +178,7 @@ function App() {
       {count == 9 && (
         <div className={styles.Container}>
           <iframe
-            src="https://kwhcclab.com:20454/app/dashboards#/view/bbe75f80-9c9b-11ed-a59b-6d42b3274f2d?embed=true&_g=(filters%3A!()%2CrefreshInterval%3A(pause%3A!t%2Cvalue%3A0)%2Ctime%3A(from%3Anow-30d%2Fd%2Cto%3Anow))&show-time-filter=true&hide-filter-bar=true"
+            src="https://kwhcclab.com:20454/app/dashboards#/view/bbe75f80-9c9b-11ed-a59b-6d42b3274f2d?embed=true&_g=(filters%3A!()%2CrefreshInterval%3A(pause%3A!t%2Cvalue%3A0)%2Ctime%3A(from%3Anow-30d%2Fd%2Cto%3Anow))&show-time-filter=true"
             height="700"
             width="100%"
           ></iframe>
