@@ -10,7 +10,7 @@ function App() {
         <img
           width="80%"
           className={styles.Logo}
-          src="../public/logo_kw.jpg"
+          src="./logo_kw.jpg"
           alt="광운대학교 로고"
         />
         <div className={styles.Name}>웹이게이션</div>
