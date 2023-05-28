@@ -1,46 +1,46 @@
-
-.SideList{
-    cursor: pointer !important;
+.SideList {
+  cursor: pointer !important;
 }
 
-.SideBar{
-    position: fixed;
-    top:0;
-    left: 0;
-    background-color: rgb(235, 235, 243);
-    width: 20%;
-    height: 100%;
-    text-align: center;
-    line-height: 270%;
-    display: block;
+.SideBar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  background-color: rgb(235, 235, 243);
+  width: 20%;
+  height: 100%;
+  text-align: center;
+  line-height: 270%;
+  display: block;
 }
 
-.ListWrap{
-    margin-top: 15%;
+.ListWrap {
+  margin-top: 15%;
 }
 
-.List{
-    cursor: pointer;
-    font-size: 1.3em;
-    opacity: 0.2;
+.List {
+  cursor: pointer;
+  font-size: 1.3em;
+  opacity: 0.8;
+  transition: font-size 0.2s ease-in-out, opacity 0.2s ease-in-out;
 }
-.List:hover{
-    cursor: pointer;
-    font-size: 1.3em;
-    opacity: 0.4;
-}
-
-.Container{
-    margin-left: 20%;
-    margin-top: 4%;
+.List:hover {
+  cursor: pointer;
+  font-size: 1.3em;
+  opacity: 0.4;
 }
 
-.Logo{
-    margin-top: 15%;
-    margin-bottom: 2%;
+.Container {
+  margin-left: 20%;
+  margin-top: 4%;
 }
 
-.Name{
-    font-weight: bold;
-    font-size: 1.6em;
+.Logo {
+  margin-top: 15%;
+  margin-bottom: 2%;
+}
+
+.Name {
+  font-weight: bold;
+  font-size: 1.6em;
 }
